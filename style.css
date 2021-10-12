@@ -144,12 +144,14 @@ button:hover {
 }
 
 #story-container ul li img {
+  display: flex;
   width: 70px;
   height: 70px;
   border: 10px solid;
   border-image-slice: 1;
   border-width: 2px;
-  border-radius: 50%;
+  border-radius: 100%;
+  border: none;
 }
 
 #story-container ul li span {
@@ -159,13 +161,11 @@ button:hover {
   margin-left: 2px;
 }
 
-.border-gradient-red {
-  border-image-source: linear-gradient(to right, orange, red) !important;
-  background: -webkit-linear-gradient(
-    left top,
-    crimson 100%,
-    #f90 0%
-  ) !important;
+.outer-layer {
+  position: relative;
+  background: linear-gradient(45deg, gold, fuchsia);
+  padding: 4px;
+  border-radius: 100%;
 }
 
 #chevron-style {
