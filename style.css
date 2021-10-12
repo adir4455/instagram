@@ -131,17 +131,18 @@ button:hover {
   border-radius: 5px;
 }
 
-#page-container ul {
+#page-container .story ul {
   display: flex;
+  justify-content: space-between;
 }
 
-#page-container ul li {
+#page-container .story ul li {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 5px 0;
 }
 
-#page-container ul li img {
+#page-container .story ul li img {
   display: flex;
   width: 70px;
   height: 70px;
@@ -152,7 +153,7 @@ button:hover {
   border: none;
 }
 
-#page-container ul li span {
+#page-container .story ul li span {
   text-align: center;
   font-size: 1rem;
   margin-top: 2px;
@@ -160,7 +161,16 @@ button:hover {
 }
 
 .story {
-  position: relative;
+  position: flex;
+  justify-content: space-between;
+}
+
+.story .story-img {
+  width: 60px;
+  height: 60px;
+  background: url("./image/Johndoe.jpg") no-repeat center center/cover;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .outer-layer {
