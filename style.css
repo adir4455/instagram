@@ -338,13 +338,6 @@ aside img {
   margin-left: 20px;
 }
 
-.post-bottom > span {
-  display: inline-block;
-  font-weight: bold;
-  color: rgb(47, 47, 134);
-  margin-bottom: 10px;
-}
-
 .post-users-comments > span {
   color: rgb(156, 156, 156);
   margin-bottom: 10px;
@@ -356,9 +349,10 @@ aside img {
   margin-top: 5px;
 }
 
-.post-users-comments div h4 {
+.post-users-comments div span {
   display: inline-block;
   margin-right: 5px;
+  font-weight: bold;
 }
 
 .post-users-comments .post-last-comment {
