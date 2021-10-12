@@ -71,7 +71,6 @@ button:hover {
   grid-template-columns: 2fr 2fr 2fr;
   align-items: center;
   text-align: center;
-
   margin-top: 1rem;
 }
 
@@ -120,7 +119,7 @@ button:hover {
 
 /* Story Container */
 
-#story-container {
+#page-container {
   display: inline-block;
   position: relative;
   top: 90px;
@@ -133,17 +132,17 @@ button:hover {
   padding: 0 3px;
 }
 
-#story-container ul {
+#page-container ul {
   display: flex;
 }
 
-#story-container ul li {
+#page-container ul li {
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding: 20px;
 }
 
-#story-container ul li img {
+#page-container ul li img {
   display: flex;
   width: 70px;
   height: 70px;
@@ -154,7 +153,7 @@ button:hover {
   border: none;
 }
 
-#story-container ul li span {
+#page-container ul li span {
   text-align: center;
   font-size: 1rem;
   margin-top: 2px;
@@ -173,7 +172,8 @@ button:hover {
   color: white;
 }
 
-#chevron {
+#chevron-left,
+#chevron-right {
   height: 27px;
   width: 27px;
   align-self: center;
