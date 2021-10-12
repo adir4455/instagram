@@ -24,12 +24,13 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   /* Navbar */
   #navbar-showcase {
     display: flex;
     justify-content: space-between;
     padding: 0 7px;
+    max-width: 500px;
   }
 
   #search {
@@ -63,6 +64,9 @@
   #chevron-style {
     font-size: 16px;
     z-index: 0;
+  }
+
+  #page-container {
   }
 
   #page-container ul li {
