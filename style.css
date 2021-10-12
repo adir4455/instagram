@@ -280,11 +280,11 @@ aside img {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   grid-gap: 5px;
-  border-radius: 50%;
 }
 
 .post-upper img {
   width: 50px;
+  border-radius: 100%;
 }
 
 .post-upper i {
