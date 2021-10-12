@@ -129,7 +129,6 @@ button:hover {
 
   border: 1.5px solid rgba(175, 173, 173, 0.6);
   border-radius: 5px;
-  padding: 0 3px;
 }
 
 #page-container ul {
@@ -158,6 +157,10 @@ button:hover {
   font-size: 1rem;
   margin-top: 2px;
   margin-left: 2px;
+}
+
+.story {
+  position: relative;
 }
 
 .outer-layer {
@@ -248,10 +251,10 @@ aside img {
 
 /* Post */
 #post {
-  position: absolute;
+  position: relative;
   margin-top: 40px;
   border: 1.5px solid rgba(175, 173, 173, 0.6);
-  width: 767px;
+  width: 100%;
   border-radius: 5px;
 }
 
@@ -279,20 +282,25 @@ aside img {
 }
 
 .post-img {
-  overflow: hidden;
   object-fit: cover;
+  overflow: hidden;
+  height: 100vw;
+  max-width: 100vw;
+  background: url("./image/post_picture.png") no-repeat;
+  background-size: contain;
 }
 
 .post-icons {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .post-icons button {
   border: none;
   background: none;
-  padding: 0 10px;
+  padding: 0px 10px 10px 10px;
+  margin-top: 0px;
 }
 
 .fas.fa-heart:active {
